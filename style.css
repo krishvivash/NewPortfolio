@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 li {
     list-style: none;
 }
@@ -58,7 +62,7 @@ input:hover, textarea:hover {
 }
 
 input:focus, textarea:focus{
-    border-color: #f06449;
+    border-color: #2634e6;
 }
 
 .container{
@@ -94,7 +98,7 @@ input:focus, textarea:focus{
 }
 
 .orange{
-    color: #f06449 !important; 
+    color: #2634e6 !important; 
 }
 
 .link__hover-effect{
@@ -287,8 +291,8 @@ MODAL
 }
 
 .form__submit {
-    background-color: #f06449;
-    border: 2px solid #f06449;
+    background-color: #2634e6;
+    border: 2px solid #2634e6;
     color: white;
     font-weight: bold;
     width: 100%;
@@ -304,8 +308,8 @@ MODAL
 }
 
 .form__submit:active{
-    border-color: #f06449;
-    color: #f06449;
+    border-color: #2634e6;
+    color: #2634e6;
 }
 
 .modal__overlay{
@@ -395,7 +399,7 @@ LANDING PAGE
 }
 
 .social__link{
-    background-color: #f06449;
+    background-color: #2634e6;
     color: white;
     padding: 6px;
     width: 32px;
@@ -482,11 +486,15 @@ nav {
 #personal-logo{
     width: 50px;
     height: 50px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 
 .nav__link--list{
     display: flex;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 .nav__link{
